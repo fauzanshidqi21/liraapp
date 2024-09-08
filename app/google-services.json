@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "99640654136",
+    "project_id": "book-app-fbc2c",
+    "storage_bucket": "book-app-fbc2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99640654136:android:3216be022fe164c5d369cd",
+        "android_client_info": {
+          "package_name": "com.lira.liraapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAp5CxbysqYi2O38MyZq8N63UFISuR5kKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
