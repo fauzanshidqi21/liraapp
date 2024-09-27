@@ -32,12 +32,9 @@ class DashboardAdminActivity : AppCompatActivity() {
             checkUser()
         }
 
-        enableEdgeToEdge()
-        setContentView(R.layout.activity_dashboard_admin)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+        //handle click, start add category page
+        binding.addCategoryBtn.setOnClickListener {
+            startActivity(Intent(this, CategoryAddActivity::class.java))
         }
     }
 

@@ -4,7 +4,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="purple_500">#FF6200EE</color>
     <color name="gray">#A9A9A9</color>
-    <color name="blue">#00008B</color>
+    <color name="blue">#0000FF</color>
     <color name="gray01">#c5c5c5</color>
     <color name="gray02">#777777</color>
 </resources>

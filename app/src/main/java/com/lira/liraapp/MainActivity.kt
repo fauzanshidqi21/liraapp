@@ -17,23 +17,16 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
-        enableEdgeToEdge()
         setContentView(binding.root)
 
-        //handle click, login
         binding.loginBtn.setOnClickListener {
+            //will do later
             startActivity(Intent(this, LoginActivity::class.java))
         }
 
-        //handle click, skip and continue to main screen
         binding.skipBtn.setOnClickListener {
+            //will do later
             startActivity(Intent(this, DashboardUserActivity::class.java))
-        }
-
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
         }
     }
 }
