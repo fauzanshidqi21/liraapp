@@ -31,6 +31,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="10dp"
+        app:backgroundTint="@color/blue"
         android:background="@drawable/shape_button01"
         android:text="Login"
         android:layout_above="@id/skipBtn"
@@ -42,7 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:text="Continue without login"
-        android:textColor="@color/purple_500"
+        app:backgroundTint="@color/blue"
+        android:textColor="@color/blue"
         android:background="@drawable/shape_button02"/>
     
 </RelativeLayout>
