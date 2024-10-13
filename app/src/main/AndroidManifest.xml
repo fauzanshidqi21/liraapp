@@ -12,6 +12,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MaterialComponents.Light.NoActionBar">
         <activity
+            android:name=".PrivacyPolicyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Privacy_PolicyActivity"
+            android:exported="false" />
+        <activity
             android:name=".CategoryAddActivity"
             android:exported="false" />
         <activity

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Lira App</string>
     <string name="new_user_signup">New User? <b>SignUp</b></string>
+    <string name="privacy_policy">Kebijakan Privasi</string>
 </resources>
